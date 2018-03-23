@@ -51,4 +51,17 @@ autres :
 containers/AddTodo.js
 
 TODO : expliquer mapStateToProps et mapDispatchToProps et connect() par défaut
+voir https://www.sohamkamani.com/blog/2017/03/31/react-redux-connect-explained/
+connect()(AddTodo) will pass dispatch as a prop to AddTodo component, which is still useful even without state or predefined actions.
 
+2- Un blog hyper minimal à partir de TodoList...
+f- les composants présentationnels
+components/Post.js
+components/PostList.js
+components/App.js
+
+
+g- les composants containers
+containers/VisiblePostList.js
+autres :
+containers/AddPost.js
